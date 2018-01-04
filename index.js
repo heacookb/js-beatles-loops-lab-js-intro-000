@@ -24,7 +24,7 @@ function iLoveTheBeatles(num)
   var counter = 0;
   var array = new Array();
   do{
-    array[counter] = "I Love the Beatles!";
+    array[counter] = "I love the Beatles!";
     counter++;
     num++;
   }while(num < 15);
