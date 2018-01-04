@@ -14,6 +14,7 @@ function johnLennonFacts(factsarray)
   while(i < n)
   {
     factsarray[i] = factsarray[i] + "!!!";
+    i++;
     
   }
   return factsarray;
