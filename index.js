@@ -4,6 +4,7 @@ function theBeatlesPlay(musicians, instruments)
   var n = musicians.length;
   for(let i = 0; i < n; i++;)
   {
-    array[i] = []
+    array[i] = musicians[i] + " plays " +[instruments];
   }
+  return array;
 }
